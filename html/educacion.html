@@ -74,40 +74,42 @@
 				</tbody>				
 			</table>
 		
-		<h3>Agregar Estudios</h3>
-		<p>
-			<label for="añoEstudio"><strong>Año:</strong> </label>
-			<select id="añoEstudio">
-				<option>2009</option>
-				<option>2010</option>
-				<option>2011</option>
-				<option>2012</option>
-				<option>2013</option>
-				<option>2014</option>
-				<option>2015</option>
-				<option>2016</option>
-				<option>2017</option>			
-			</select>
-			
-		</p>
-			
-		<p>
+		
+		<form>
+			<h3>Agregar Estudios</h3>
+			<p>
+				<label for="añoEstudio"><strong>Año:</strong> </label>
+				<select id="añoEstudio">
+					<option>2009</option>
+					<option>2010</option>
+					<option>2011</option>
+					<option>2012</option>
+					<option>2013</option>
+					<option>2014</option>
+					<option>2015</option>
+					<option>2016</option>
+					<option>2017</option>			
+				</select>
+				
+			</p>
+			<p>
 			<label for="institucion"><strong>Institución:</strong></label>
-			<input type="text" name="institucion">
-		</p>
+			<input type="text" name="institucion" required="">
+			</p>
 
-		<p>
-			<label for="lugar"><strong>Lugar:</strong> </label>
-			<input type="text" name="lugar" size="50">
-		</p>
+			<p>
+				<label for="lugar"><strong>Lugar:</strong> </label>
+				<input type="text" name="lugar" size="50">
+			</p>
 
-		<p>
-			<label for="culmino"><strong>¿Culminó?</strong></label>
-			<input type="radio" name="culmino">Si
-			<input type="radio" name="culmino">No
-		</p>
+			<p>
+				<label for="culmino"><strong>¿Culminó?</strong></label>
+				<input type="radio" name="culmino">Si
+				<input type="radio" name="culmino">No
+			</p>
 
-		<input type="submit" name="Registrar">	
+			<input type="submit" name="Registrar">				
+		</form>		
 
 		<footer>
 			<p>Puedes contactarme en:<br>
